@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDZFCategories'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of LDZFCategories.'
 
 # This description is used to generate tags and improve search results.
@@ -42,8 +42,8 @@ TODO: Add long description of the pod here.
   s.dependency 'LDZFCommon'
   s.dependency 'JXCategoryKit'
 
-  s.public_header_files = 'LDZFCategories/**/IU_Categories.h'
-  s.source_files = 'LDZFCategories/**/IU_Categories.h'
+  s.public_header_files = 'LDZFCategories/**/LDZFCategories.h'
+  s.source_files = 'LDZFCategories/**/LDZFCategories.h'
 
   s.subspec 'Foundation' do |ss|
     ss.source_files = 'LDZFCategories/**/Foundation/**/*.{h,m}'
