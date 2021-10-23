@@ -1,0 +1,6 @@
+framework module Pods_LDZFCategories_Tests {
+  umbrella header "Pods-LDZFCategories_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

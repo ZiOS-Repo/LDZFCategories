@@ -1,0 +1,6 @@
+framework module Pods_LDZFCategories_Example {
+  umbrella header "Pods-LDZFCategories_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

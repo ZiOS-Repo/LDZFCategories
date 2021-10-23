@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LDZFCategories_Example' do
+  pod 'LDZFCategories', :path => '../'
+#  pod 'LDZFCommon'
+#  pod 'JXCategoryKit'
+  target 'LDZFCategories_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
