@@ -1,109 +1,23 @@
 PODS:
-  - JXCategoryKit (0.2.7):
-    - JXCategoryKit/CoreLocation (= 0.2.7)
-    - JXCategoryKit/Foundation (= 0.2.7)
-    - JXCategoryKit/QuartzCore (= 0.2.7)
-    - JXCategoryKit/UIKit (= 0.2.7)
-  - JXCategoryKit/CoreLocation (0.2.7)
-  - JXCategoryKit/Foundation (0.2.7):
-    - JXCategoryKit/Foundation/NSArray (= 0.2.7)
-    - JXCategoryKit/Foundation/NSBundle (= 0.2.7)
-    - JXCategoryKit/Foundation/NSData (= 0.2.7)
-    - JXCategoryKit/Foundation/NSDate (= 0.2.7)
-    - JXCategoryKit/Foundation/NSDictionary (= 0.2.7)
-    - JXCategoryKit/Foundation/NSError (= 0.2.7)
-    - JXCategoryKit/Foundation/NSFileManager (= 0.2.7)
-    - JXCategoryKit/Foundation/NSNotificationCenter (= 0.2.7)
-    - JXCategoryKit/Foundation/NSNull (= 0.2.7)
-    - JXCategoryKit/Foundation/NSObject (= 0.2.7)
-    - JXCategoryKit/Foundation/NSString (= 0.2.7)
-    - JXCategoryKit/Foundation/NSTimer (= 0.2.7)
-  - JXCategoryKit/Foundation/NSArray (0.2.7):
-    - JXCategoryKit/Foundation/NSObject
-  - JXCategoryKit/Foundation/NSBundle (0.2.7)
-  - JXCategoryKit/Foundation/NSData (0.2.7)
-  - JXCategoryKit/Foundation/NSDate (0.2.7)
-  - JXCategoryKit/Foundation/NSDictionary (0.2.7):
-    - JXCategoryKit/Foundation/NSObject
-  - JXCategoryKit/Foundation/NSError (0.2.7)
-  - JXCategoryKit/Foundation/NSFileManager (0.2.7)
-  - JXCategoryKit/Foundation/NSNotificationCenter (0.2.7)
-  - JXCategoryKit/Foundation/NSNull (0.2.7)
-  - JXCategoryKit/Foundation/NSObject (0.2.7)
-  - JXCategoryKit/Foundation/NSString (0.2.7):
-    - JXCategoryKit/Foundation/NSData
-    - JXCategoryKit/Foundation/NSObject
-  - JXCategoryKit/Foundation/NSTimer (0.2.7)
-  - JXCategoryKit/QuartzCore (0.2.7)
-  - JXCategoryKit/UIKit (0.2.7):
-    - JXCategoryKit/UIKit/UIApplication (= 0.2.7)
-    - JXCategoryKit/UIKit/UIButton (= 0.2.7)
-    - JXCategoryKit/UIKit/UIColor (= 0.2.7)
-    - JXCategoryKit/UIKit/UIControl (= 0.2.7)
-    - JXCategoryKit/UIKit/UIDevice (= 0.2.7)
-    - JXCategoryKit/UIKit/UIGestureRecognizer (= 0.2.7)
-    - JXCategoryKit/UIKit/UIImage (= 0.2.7)
-    - JXCategoryKit/UIKit/UIScrollView (= 0.2.7)
-    - JXCategoryKit/UIKit/UITabBarController (= 0.2.7)
-    - JXCategoryKit/UIKit/UITableView (= 0.2.7)
-    - JXCategoryKit/UIKit/UITableViewCell (= 0.2.7)
-    - JXCategoryKit/UIKit/UITextField (= 0.2.7)
-    - JXCategoryKit/UIKit/UIView (= 0.2.7)
-    - JXCategoryKit/UIKit/UIViewController (= 0.2.7)
-    - JXCategoryKit/UIKit/UIWindow (= 0.2.7)
-  - JXCategoryKit/UIKit/UIApplication (0.2.7)
-  - JXCategoryKit/UIKit/UIButton (0.2.7)
-  - JXCategoryKit/UIKit/UIColor (0.2.7)
-  - JXCategoryKit/UIKit/UIControl (0.2.7)
-  - JXCategoryKit/UIKit/UIDevice (0.2.7)
-  - JXCategoryKit/UIKit/UIGestureRecognizer (0.2.7)
-  - JXCategoryKit/UIKit/UIImage (0.2.7)
-  - JXCategoryKit/UIKit/UIScrollView (0.2.7)
-  - JXCategoryKit/UIKit/UITabBarController (0.2.7):
-    - JXCategoryKit/UIKit/UIImage
-  - JXCategoryKit/UIKit/UITableView (0.2.7)
-  - JXCategoryKit/UIKit/UITableViewCell (0.2.7)
-  - JXCategoryKit/UIKit/UITextField (0.2.7)
-  - JXCategoryKit/UIKit/UIView (0.2.7)
-  - JXCategoryKit/UIKit/UIViewController (0.2.7)
-  - JXCategoryKit/UIKit/UIWindow (0.2.7)
-  - LDZFCategories (0.1.1):
-    - JXCategoryKit
-    - LDZFCategories/Foundation (= 0.1.1)
-    - LDZFCategories/QuartzCore (= 0.1.1)
-    - LDZFCategories/UIKit (= 0.1.1)
-    - LDZFCategories/UnSure (= 0.1.1)
-    - LDZFCommon
-  - LDZFCategories/Foundation (0.1.1):
-    - JXCategoryKit
-    - LDZFCommon
-  - LDZFCategories/QuartzCore (0.1.1):
-    - JXCategoryKit
-    - LDZFCommon
-  - LDZFCategories/UIKit (0.1.1):
-    - JXCategoryKit
-    - LDZFCommon
-  - LDZFCategories/UnSure (0.1.1):
-    - JXCategoryKit
-    - LDZFCommon
-  - LDZFCommon (0.1.0)
+  - LDZFCategories (0.1.2):
+    - LDZFCategories/Foundation (= 0.1.2)
+    - LDZFCategories/QuartzCore (= 0.1.2)
+    - LDZFCategories/UIKit (= 0.1.2)
+    - LDZFCategories/UnSure (= 0.1.2)
+  - LDZFCategories/Foundation (0.1.2)
+  - LDZFCategories/QuartzCore (0.1.2)
+  - LDZFCategories/UIKit (0.1.2)
+  - LDZFCategories/UnSure (0.1.2)
 
 DEPENDENCIES:
   - LDZFCategories (from `../`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - JXCategoryKit
-    - LDZFCommon
 
 EXTERNAL SOURCES:
   LDZFCategories:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JXCategoryKit: 5f0e2524d4169ae7e2858de5e4e6a350a22c25fd
-  LDZFCategories: 9efb066dbaf8918c62419662e8d6e1b1e58ae485
-  LDZFCommon: a0587af17c138e915041fd1166cda269fa041640
+  LDZFCategories: 16f0bdc3891bcb5b3a2be1f55ff6256b5eef1ada
 
 PODFILE CHECKSUM: e343686ffeab6c9e799d3f753b95f174804c802e
 
