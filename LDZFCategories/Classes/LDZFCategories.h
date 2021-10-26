@@ -8,10 +8,6 @@
 #ifndef LDZFCategories_h
 #define LDZFCategories_h
 
-#import <JXCategoryKit/JXCategoryKit.h>
-
-
-
 //CALayer
 #import "CALayer+SetRect.h"
 #import "CALayer+Animation.h"
