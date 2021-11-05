@@ -324,10 +324,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LDZFCategories_Example/Pods-LDZFCategories_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JXCategoryKit/JXCategoryKit.framework",
 				"${BUILT_PRODUCTS_DIR}/LDZFCategories/LDZFCategories.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JXCategoryKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LDZFCategories.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

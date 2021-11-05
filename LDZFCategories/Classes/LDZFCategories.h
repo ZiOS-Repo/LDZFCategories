@@ -26,4 +26,8 @@
 
 #import "PHAsset+IU.h"
 
+
+
+//JXCategoryKit
+#import <JXCategoryKit/JXCategoryKit.h>
 #endif /* LDZFCategories_h */
