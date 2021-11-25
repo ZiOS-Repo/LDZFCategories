@@ -67,19 +67,19 @@ PODS:
   - JXCategoryKit/UIKit/UIView (0.2.7)
   - JXCategoryKit/UIKit/UIViewController (0.2.7)
   - JXCategoryKit/UIKit/UIWindow (0.2.7)
-  - LDZFCategories (0.1.3):
+  - LDZFCategories (0.1.4):
     - JXCategoryKit
-    - LDZFCategories/Foundation (= 0.1.3)
-    - LDZFCategories/QuartzCore (= 0.1.3)
-    - LDZFCategories/UIKit (= 0.1.3)
-    - LDZFCategories/UnSure (= 0.1.3)
-  - LDZFCategories/Foundation (0.1.3):
+    - LDZFCategories/Foundation (= 0.1.4)
+    - LDZFCategories/QuartzCore (= 0.1.4)
+    - LDZFCategories/UIKit (= 0.1.4)
+    - LDZFCategories/UnSure (= 0.1.4)
+  - LDZFCategories/Foundation (0.1.4):
     - JXCategoryKit
-  - LDZFCategories/QuartzCore (0.1.3):
+  - LDZFCategories/QuartzCore (0.1.4):
     - JXCategoryKit
-  - LDZFCategories/UIKit (0.1.3):
+  - LDZFCategories/UIKit (0.1.4):
     - JXCategoryKit
-  - LDZFCategories/UnSure (0.1.3):
+  - LDZFCategories/UnSure (0.1.4):
     - JXCategoryKit
 
 DEPENDENCIES:
@@ -95,7 +95,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JXCategoryKit: 5f0e2524d4169ae7e2858de5e4e6a350a22c25fd
-  LDZFCategories: aac47d70a6d5974dc6bc2cb489daed9eeb70bc97
+  LDZFCategories: 058e308c793b46074c589039ac68cd9f75f948b8
 
 PODFILE CHECKSUM: e343686ffeab6c9e799d3f753b95f174804c802e
 
