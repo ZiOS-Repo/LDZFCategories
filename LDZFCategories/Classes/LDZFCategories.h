@@ -25,6 +25,7 @@
 #import "UIView+Categorys.h"
 
 #import "PHAsset+IU.h"
+#import "NSObject+AmenJson.h"
 
 
 

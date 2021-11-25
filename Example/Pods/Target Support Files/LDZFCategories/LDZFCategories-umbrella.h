@@ -13,7 +13,6 @@
 #import "LDZFCategories.h"
 #import "NSBundle+AssociatedBundle.h"
 #import "NSAttributedString+LabelWidthAndHeight.h"
-#import "NSString+AmenJSON.h"
 #import "NSString+Categorys.h"
 #import "NSString+HexUnicode.h"
 #import "NSString+LabelWidthAndHeight.h"
@@ -38,6 +37,7 @@
 #import "UIView+SetRect.h"
 #import "UIView+Shake.h"
 #import "UIView+UserInteraction.h"
+#import "NSObject+AmenJson.h"
 #import "PHAsset+IU.h"
 
 FOUNDATION_EXPORT double LDZFCategoriesVersionNumber;
