@@ -37,6 +37,7 @@
 #import "UIView+SetRect.h"
 #import "UIView+Shake.h"
 #import "UIView+UserInteraction.h"
+#import "NSObject+AmenController.h"
 #import "NSObject+AmenJson.h"
 #import "PHAsset+IU.h"
 

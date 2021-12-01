@@ -26,6 +26,7 @@
 
 #import "PHAsset+IU.h"
 #import "NSObject+AmenJson.h"
+#import "NSObject+AmenController.h"
 
 
 
