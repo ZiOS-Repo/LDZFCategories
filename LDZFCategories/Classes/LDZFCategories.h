@@ -12,7 +12,7 @@
 #import "CALayer+SetRect.h"
 #import "CALayer+Animation.h"
 //CAShapeLayer
-#import "CAShapeLayer+CornerRadius.h"
+#import "CAShapeLayer+Solo.h"
 //NSBundle
 #import "NSBundle+AssociatedBundle.h"
 //NSString
@@ -20,16 +20,34 @@
 //UIButton
 #import "UIButton+Categories.h"
 //UILabel
-#import "UILabel+SizeToFit.h"
+#import "UILabel+Solo.h"
 //UIView
 #import "UIView+Categorys.h"
+//UIScrollView
+#import "UIScrollView+Solo.h"
 
-#import "PHAsset+IU.h"
-#import "NSObject+AmenJson.h"
-#import "NSObject+AmenController.h"
+//UIViewController
+#import "UIViewController+SoloAlert.h"
+#import "UIViewController+SoloGeneral.h"
+
+//UIDevice
+#import "UIDevice+SoloGeneral.h"
+
+//UIImage
+#import "UIImage+SoloClip.h"
+#import "UIImage+SoloEffect.h"
+#import "UIImage+SoloGeneral.h"
+#import "UIImage+SoloGenerate.h"
+#import "UIImage+SoloQRCode.h"
+
+
+
+
+#import "PHAsset+Solo.h"
+#import "NSObject+Solo.h"
 
 
 
 //JXCategoryKit
-#import <JXCategoryKit/JXCategoryKit.h>
+//#import <JXCategoryKit/JXCategoryKit.h>
 #endif /* LDZFCategories_h */
