@@ -113,7 +113,7 @@
 		1BAD84F3A6E43A0DFDEDBD30CDC85660 /* NSString+Solo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+Solo.h"; sourceTree = "<group>"; };
 		23250373A4A0CE973DBD7610FAD5C696 /* Pods-LDZFCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
 		25D38319E0F54BAAF800F6A18535126C /* Pods-LDZFCategories_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFCategories_Example-Info.plist"; sourceTree = "<group>"; };
-		2905B37800512DC554D9751BBFEFA3B1 /* LDZFCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFCategories.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2905B37800512DC554D9751BBFEFA3B1 /* LDZFCategories.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LDZFCategories.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2B4F1A0105277D43794B4A31FA18B445 /* UIButton+Style.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Style.m"; sourceTree = "<group>"; };
 		2DA5F813A9EF738D4C1EB7A17B8D1FC2 /* UIButton+Event.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+Event.h"; sourceTree = "<group>"; };
 		32567CA30DA3F87DF05A6900DCB6ECFA /* UIScrollView+Solo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Solo.m"; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		6B384B0CED261EF28D097C9011430B79 /* Pods-LDZFCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6C12F3DC3EF7FFAB9903668C8CA2482C /* UIView+Solo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Solo.m"; sourceTree = "<group>"; };
 		6E07180B4699118F741DDAD0B9EA74BF /* PHAsset+Solo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PHAsset+Solo.m"; path = "LDZFCategories/Classes/UnSure/PHAsset+Solo.m"; sourceTree = "<group>"; };
-		70EB9512C5E8876BA0DA1C83A7D46ED4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		70EB9512C5E8876BA0DA1C83A7D46ED4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		72D059AF1A10F0602644D025FCCF06E9 /* Pods-LDZFCategories_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFCategories_Example"; path = Pods_LDZFCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		764ACF032BE98E55EA9530A833F5F4F7 /* Pods-LDZFCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,14 +154,14 @@
 		8043220F02623FD2C8B2C8040D384B0F /* LDZFCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFCategories.h; path = LDZFCategories/Classes/LDZFCategories.h; sourceTree = "<group>"; };
 		86144D45934A9736EFDB0478267742CE /* LDZFCategories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFCategories.debug.xcconfig; sourceTree = "<group>"; };
 		86B96C631835EC733D8172364F858D3B /* UIView+AnimationPracticalMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationPracticalMethod.m"; sourceTree = "<group>"; };
-		86C4509F9900EF5D368708545A099652 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		86C4509F9900EF5D368708545A099652 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		874CA5935E78C1D11CF15E3879982ECB /* UIDevice+SoloGeneral.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SoloGeneral.m"; sourceTree = "<group>"; };
 		87AC380BC1EE5189E0ABD9B6F435D967 /* Pods-LDZFCategories_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFCategories_Example-dummy.m"; sourceTree = "<group>"; };
 		88C169882392C54D2530BE6AB53AB476 /* UIView+ConvenientMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+ConvenientMethod.m"; sourceTree = "<group>"; };
 		8B76D42EA61459EC35AB93C2A9D4C683 /* Pods-LDZFCategories_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFCategories_Tests-Info.plist"; sourceTree = "<group>"; };
 		8FD793646A674995CDC3A7859A442EF2 /* CAShapeLayer+Solo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Solo.m"; sourceTree = "<group>"; };
 		9C7A5D986A982ECE5EEAE3DA101C1355 /* NSAttributedString+Solo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Solo.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E7480E04DA59271B7274FC88AF33B24 /* UIView+ConvertRect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+ConvertRect.h"; sourceTree = "<group>"; };
 		A08D99D7AE37094B2A9890E906ECC31D /* Pods-LDZFCategories_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFCategories_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A2F7C23FD89FE851D7912EE1F41FAF6E /* Pods-LDZFCategories_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFCategories_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -1014,8 +1014,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
