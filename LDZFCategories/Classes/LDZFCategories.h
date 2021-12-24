@@ -16,6 +16,10 @@
 //Foundation
 #import "NSBundle+AssociatedBundle.h"
 #import "NSString+Categorys.h"
+#import "NSArray+SoloSafe.h"
+#import "NSArray+SoloGeneral.h"
+#import "NSMutableArray+SoloSafe.h"
+#import "NSMutableArray+SoloGeneral.h"
 
 //UIKit
 #import "UIButton+Categories.h"

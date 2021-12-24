@@ -11,6 +11,10 @@
 #endif
 
 #import "LDZFCategories.h"
+#import "NSArray+SoloGeneral.h"
+#import "NSArray+SoloSafe.h"
+#import "NSMutableArray+SoloGeneral.h"
+#import "NSMutableArray+SoloSafe.h"
 #import "NSBundle+AssociatedBundle.h"
 #import "NSAttributedString+Solo.h"
 #import "NSString+Categorys.h"
