@@ -15,7 +15,7 @@
 #import "NSArray+LDZFSafe.h"
 #import "NSMutableArray+LDZFGeneral.h"
 #import "NSMutableArray+LDZFSafe.h"
-#import "NSBundle+AssociatedBundle.h"
+#import "NSBundle+LDZFPodBundle.h"
 #import "NSAttributedString+LDZF.h"
 #import "NSString+Categorys.h"
 #import "NSString+LDZF.h"

@@ -14,8 +14,8 @@
 #import "CAShapeLayer+LDZF.h"
 
 //Foundation
-#import "NSBundle+AssociatedBundle.h"
 #import "NSString+Categorys.h"
+#import "NSBundle+LDZFPodBundle.h"
 #import "NSArray+LDZFSafe.h"
 #import "NSArray+LDZFGeneral.h"
 #import "NSMutableArray+LDZFSafe.h"
