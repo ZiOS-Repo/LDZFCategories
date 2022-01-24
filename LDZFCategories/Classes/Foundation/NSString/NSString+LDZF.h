@@ -88,6 +88,6 @@
 
 
 /// 将JSON 字符串转化成序列化对象
-- (id)ldzf__JSONValue;
+- (id)ldzf_JSONValue;
 
 @end

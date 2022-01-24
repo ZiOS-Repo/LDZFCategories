@@ -149,7 +149,7 @@
     return [NSString stringWithFormat:@"%C", (unichar)codeValue];;
 }
 
--(id)ldzf__JSONValue
+-(id)ldzf_JSONValue
 {
     if (!self) {
         return nil;
