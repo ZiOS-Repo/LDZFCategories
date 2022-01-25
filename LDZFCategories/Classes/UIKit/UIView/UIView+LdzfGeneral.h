@@ -1,5 +1,5 @@
 //
-//  UIView+LDZF.h
+//  UIView+LdzfGeneral.h
 //  LDZFCategories
 //
 //  Created by zhuyuhui on 2021/12/3.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIView (LDZF)
+@interface UIView (LdzfGeneral)
 
 #pragma mark - General
 /// 屏幕快照

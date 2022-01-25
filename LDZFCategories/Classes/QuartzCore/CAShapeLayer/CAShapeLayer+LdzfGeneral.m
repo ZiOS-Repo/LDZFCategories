@@ -1,9 +1,9 @@
 
-#import "CAShapeLayer+LDZF.h"
+#import "CAShapeLayer+LdzfGeneral.h"
 
-@implementation CAShapeLayer (LDZF)
+@implementation CAShapeLayer (LdzfGeneral)
 
-+ (CAShapeLayer *)shapeLayerWithFrame:(CGRect)frame corners:(UIRectCorner)corners radius:(CGFloat)radius {
++ (CAShapeLayer *)ldzf_shapeLayerWithFrame:(CGRect)frame corners:(UIRectCorner)corners radius:(CGFloat)radius {
 
     CGRect        bounds     = CGRectMake(0, 0, frame.size.width, frame.size.height);
     UIBezierPath *path       = [UIBezierPath bezierPathWithRoundedRect:bounds byRoundingCorners:corners cornerRadii:CGSizeMake(radius, radius)];

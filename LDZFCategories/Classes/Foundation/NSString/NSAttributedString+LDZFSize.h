@@ -3,7 +3,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreText/CoreText.h>
 
-@interface NSAttributedString (LDZF)
+@interface NSAttributedString (LdzfSize)
 
 /**
  *  Get the string's height with the fixed width.

@@ -1,13 +1,13 @@
 //
-//  UIScrollView+LDZF.m
+//  UIScrollView+LdzfGeneral.m
 //  IU_Categories
 //
 //  Created by zhuyuhui on 2021/6/20.
 //
 
-#import "UIScrollView+LDZF.h"
+#import "UIScrollView+LdzfGeneral.h"
 
-@implementation UIScrollView (LDZF)
+@implementation UIScrollView (LdzfGeneral)
 - (void)ldzf_scrollToTop {
     [self ldzf_scrollToTopAnimated:YES];
 }

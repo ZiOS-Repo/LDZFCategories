@@ -1,14 +1,14 @@
 //
-//  NSObject+LDZF.m
+//  NSObject+LdzfGeneral.m
 //  LDZFCategories
 //
 //  Created by zhuyuhui on 2021/12/1.
 //
 
-#import "NSObject+LDZF.h"
+#import "NSObject+LdzfGeneral.h"
 #import <UIKit/UIKit.h>
 
-@implementation NSObject (LDZF)
+@implementation NSObject (LdzfGeneral)
 + (nullable UIWindow *)ldzf_window {
     UIWindow *window = [[UIApplication sharedApplication] keyWindow];
     if (window.windowLevel != UIWindowLevelNormal) {

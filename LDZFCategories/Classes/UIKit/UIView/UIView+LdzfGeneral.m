@@ -1,13 +1,13 @@
 //
-//  UIView+LDZF.m
+//  UIView+LdzfGeneral.m
 //  LDZFCategories
 //
 //  Created by zhuyuhui on 2021/12/3.
 //
 
-#import "UIView+LDZF.h"
+#import "UIView+LdzfGeneral.h"
 
-@implementation UIView (LDZF)
+@implementation UIView (LdzfGeneral)
 
 #pragma mark - General
 - (UIImage *)ldzf_snapshot

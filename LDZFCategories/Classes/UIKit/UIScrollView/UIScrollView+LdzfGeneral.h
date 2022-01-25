@@ -1,5 +1,5 @@
 //
-//  UIScrollView+LDZF.h
+//  UIScrollView+LdzfGeneral.h
 //  IU_Categories
 //
 //  Created by zhuyuhui on 2021/6/20.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIScrollView (LDZF)
+@interface UIScrollView (LdzfGeneral)
 
 /**
  Scroll content to top with animation.

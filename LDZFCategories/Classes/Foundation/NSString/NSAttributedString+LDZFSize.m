@@ -1,7 +1,7 @@
 
-#import "NSAttributedString+LDZF.h"
+#import "NSAttributedString+LdzfSize.h"
 
-@implementation NSAttributedString (LDZF)
+@implementation NSAttributedString (LdzfSize)
 
 - (CGFloat)ldzf_heightWithFixedWidth:(CGFloat)width {
     

@@ -1,5 +1,5 @@
 //
-//  NSObject+LDZF.h
+//  NSObject+LdzfGeneral.h
 //  LDZFCategories
 //
 //  Created by zhuyuhui on 2021/12/1.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSObject (LDZF)
+@interface NSObject (LdzfGeneral)
 /// 获取主窗体
 + (nullable UIWindow *)ldzf_window;
 - (nullable UIViewController *)ldzf_topViewController;

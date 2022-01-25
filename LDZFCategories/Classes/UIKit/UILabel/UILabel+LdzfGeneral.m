@@ -1,7 +1,7 @@
 
-#import "UILabel+LDZF.h"
+#import "UILabel+LdzfGeneral.h"
 
-@implementation UILabel (LDZF)
+@implementation UILabel (LdzfGeneral)
 
 - (void)ldzf_sizeToFitWithText:(NSString *)text config:(void (^)(UILabel *label))configBlock {
 

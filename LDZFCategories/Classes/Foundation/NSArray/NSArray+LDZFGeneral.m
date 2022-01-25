@@ -20,4 +20,11 @@
     return nil;
 }
 
++ (BOOL)ldzf_isEmpty:(NSArray *)array {
+    if (!array) {return YES;}
+    if ([array isKindOfClass:[NSNull class]]) {return YES;}
+    if (![array isKindOfClass:[NSArray class]]) {return YES;}
+    if (!array.count) {return YES;}
+    return NO;
+}
 @end

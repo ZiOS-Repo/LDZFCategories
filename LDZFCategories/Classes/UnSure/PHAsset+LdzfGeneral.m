@@ -1,13 +1,13 @@
 //
-//  PHAsset+LDZF.m
+//  PHAsset+LdzfGeneral.m
 //  IU_Categories
 //
 //  Created by zhuyuhui on 2021/7/3.
 //
 
-#import "PHAsset+LDZF.h"
+#import "PHAsset+LdzfGeneral.h"
 
-@implementation PHAsset (LDZF)
+@implementation PHAsset (LdzfGeneral)
 + (PHAsset *)ldzf_latestAsset
 {
     // 获取所有资源的集合，并按资源的创建时间排序
