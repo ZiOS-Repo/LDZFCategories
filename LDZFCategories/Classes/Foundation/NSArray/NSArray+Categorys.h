@@ -13,8 +13,4 @@
 #import "NSMutableArray+LdzfSafe.h"
 #import "NSMutableArray+LdzfGeneral.h"
 
-/// 数组是否为空
-BOOL eEmptyArr(NSArray *arr){
-    return [NSArray ldzf_isEmpty:arr];
-}
 #endif /* NSArray_Categorys_h */

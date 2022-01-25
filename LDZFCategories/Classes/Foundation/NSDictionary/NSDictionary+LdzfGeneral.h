@@ -15,4 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+
+/// 字典是否为空
+BOOL eEmptyDic(NSDictionary *dic){
+    return [NSDictionary ldzf_isEmpty:dic];
+}
+
 NS_ASSUME_NONNULL_END

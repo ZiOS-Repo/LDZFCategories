@@ -1,7 +1,7 @@
 
-#import "NSArray+LDZFGeneral.h"
+#import "NSArray+LdzfGeneral.h"
 
-@implementation NSArray (LDZFGeneral)
+@implementation NSArray (LdzfGeneral)
 
 - (NSArray *)ldzf_sortNSIndexArray
 {

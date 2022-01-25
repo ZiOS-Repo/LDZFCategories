@@ -2,7 +2,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSArray (LDZFGeneral)
+@interface NSArray (LdzfGeneral)
     
 /// 排序对象是NSIndex的数组
 - (NSArray *)ldzf_sortNSIndexArray;
@@ -14,6 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)ldzf_isEmpty:(NSArray *)array;
 
 @end
+
+/// 数组是否为空
+BOOL eEmptyArr(NSArray *arr){
+    return [NSArray ldzf_isEmpty:arr];
+}
 
 NS_ASSUME_NONNULL_END
 

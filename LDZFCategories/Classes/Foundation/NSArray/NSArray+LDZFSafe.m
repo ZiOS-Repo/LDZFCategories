@@ -1,6 +1,6 @@
 
 
-#import "NSArray+LDZFSafe.h"
+#import "NSArray+LdzfSafe.h"
 
 @implementation NSArray (LdzfSafe)
 - (nullable id)ldzf_objectWithIndex:(NSUInteger)index{
