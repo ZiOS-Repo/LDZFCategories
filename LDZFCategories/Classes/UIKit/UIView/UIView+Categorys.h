@@ -17,5 +17,6 @@
 #import "UIView+Shake.h"
 #import "UIView+LdzfGeneral.h"
 #import "UIView+LdzfGesture.h"
+#import "UIView+LdzfGraduallyView.h"
 
 #endif /* UIView_Categorys_h */

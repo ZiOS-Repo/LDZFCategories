@@ -34,5 +34,6 @@
 //UnSure
 #import "PHAsset+LdzfGeneral.h"
 #import "NSObject+LdzfGeneral.h"
+#import "NSDate+LdzfGeneral.h"
 
 #endif /* LDZFCategories_h */
