@@ -16,9 +16,12 @@
 #import "NSString+LdzfSize.h"
 #import "NSString+LdzfValid.h"
 
+BOOL eEmptyStr(NSString *str){
+    return [NSString ldzf_isEmpty:str];
+}
 
 NSString* eSafeStr(NSString *str){
-    return [NSString ldzf_isEmpty:str] ? @"" : str;
+    return eEmptyStr(str) ? @"" : str;
 }
 
 #endif /* NSString_Categorys_h */
