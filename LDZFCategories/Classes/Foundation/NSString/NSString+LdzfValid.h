@@ -38,11 +38,3 @@
 /// 是否是正确的QQ
 + (BOOL)ldzf_isValidQQ:(NSString *)qq;
 @end
-
-BOOL eEmptyStr(NSString *str){
-    return [NSString ldzf_isEmpty:str];
-}
-
-NSString* eSafeStr(NSString *str){
-    return eEmptyStr(str) ? @"" : str;
-}

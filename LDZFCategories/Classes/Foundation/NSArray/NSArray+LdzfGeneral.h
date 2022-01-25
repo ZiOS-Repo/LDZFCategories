@@ -15,10 +15,5 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-/// 数组是否为空
-BOOL eEmptyArr(NSArray *arr){
-    return [NSArray ldzf_isEmpty:arr];
-}
-
 NS_ASSUME_NONNULL_END
 
