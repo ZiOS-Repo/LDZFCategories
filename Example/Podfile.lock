@@ -1,13 +1,13 @@
 PODS:
-  - LDZFCategories (0.1.17):
-    - LDZFCategories/Foundation (= 0.1.17)
-    - LDZFCategories/QuartzCore (= 0.1.17)
-    - LDZFCategories/UIKit (= 0.1.17)
-    - LDZFCategories/UnSure (= 0.1.17)
-  - LDZFCategories/Foundation (0.1.17)
-  - LDZFCategories/QuartzCore (0.1.17)
-  - LDZFCategories/UIKit (0.1.17)
-  - LDZFCategories/UnSure (0.1.17)
+  - LDZFCategories (0.1.18):
+    - LDZFCategories/Foundation (= 0.1.18)
+    - LDZFCategories/QuartzCore (= 0.1.18)
+    - LDZFCategories/UIKit (= 0.1.18)
+    - LDZFCategories/UnSure (= 0.1.18)
+  - LDZFCategories/Foundation (0.1.18)
+  - LDZFCategories/QuartzCore (0.1.18)
+  - LDZFCategories/UIKit (0.1.18)
+  - LDZFCategories/UnSure (0.1.18)
 
 DEPENDENCIES:
   - LDZFCategories (from `../`)
@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LDZFCategories: e0ea4b07703a5b68b12d960869cd83eace55a5d4
+  LDZFCategories: 84d6c5389038d998112c916cff3d23adc432115c
 
 PODFILE CHECKSUM: e343686ffeab6c9e799d3f753b95f174804c802e
 
