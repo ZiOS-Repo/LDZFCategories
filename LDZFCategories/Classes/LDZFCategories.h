@@ -20,16 +20,14 @@
 #import "NSBundle+LdzfPodBundle.h"
 
 //UIKit
+#import "UIView+Categorys.h"
+#import "UIImage+Categorys.h"
+#import "UIColor+Categorys.h"
 #import "UIButton+Categories.h"
+
 #import "UIDevice+LdzfGeneral.h"
-#import "UIImage+LdzfClip.h"
-#import "UIImage+LdzfEffect.h"
-#import "UIImage+LdzfGeneral.h"
-#import "UIImage+LdzfGenerate.h"
-#import "UIImage+LdzfQRCode.h"
 #import "UILabel+LdzfGeneral.h"
 #import "UIScrollView+LdzfGeneral.h"
-#import "UIView+Categorys.h"
 #import "UIViewController+LdzfAlert.h"
 #import "UIViewController+LdzfGeneral.h"
 
