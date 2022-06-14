@@ -23,6 +23,8 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A159A452D97C1B849F6B2ECF /* Pods_LDZFCategories_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C20E9F2D410E79563A4547 /* Pods_LDZFCategories_Example.framework */; };
+		AF9DBF90285829E200FC7726 /* ICUIButtonExtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9DBF8F285829E200FC7726 /* ICUIButtonExtViewController.m */; };
+		AF9DBF9328582B2400FC7726 /* ICUIButtonExtStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9DBF9228582B2400FC7726 /* ICUIButtonExtStyleViewController.m */; };
 		D2AE0CFC8E941515E8135F13 /* Pods_LDZFCategories_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12747728AB0BDEB318D9C77D /* Pods_LDZFCategories_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,10 @@
 		8E8C3D04FA2FB9B671D18DB0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		94C20E9F2D410E79563A4547 /* Pods_LDZFCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDZFCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5C091D4ADDA294FF12A415 /* Pods-LDZFCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDZFCategories_Example.release.xcconfig"; path = "Target Support Files/Pods-LDZFCategories_Example/Pods-LDZFCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF9DBF8E285829E200FC7726 /* ICUIButtonExtViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICUIButtonExtViewController.h; sourceTree = "<group>"; };
+		AF9DBF8F285829E200FC7726 /* ICUIButtonExtViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICUIButtonExtViewController.m; sourceTree = "<group>"; };
+		AF9DBF9128582B2400FC7726 /* ICUIButtonExtStyleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICUIButtonExtStyleViewController.h; sourceTree = "<group>"; };
+		AF9DBF9228582B2400FC7726 /* ICUIButtonExtStyleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICUIButtonExtStyleViewController.m; sourceTree = "<group>"; };
 		C63054AEA9F336C82A25B285 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F1564F81BD9DA629F8229A91 /* LDZFCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LDZFCategories.podspec; path = ../LDZFCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -137,6 +143,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ICViewController.h */,
 				6003F5A6195388D20070C39A /* ICViewController.m */,
+				AF9DBF8D285829B600FC7726 /* UIButton */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -196,6 +203,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AF9DBF8D285829B600FC7726 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				AF9DBF8E285829E200FC7726 /* ICUIButtonExtViewController.h */,
+				AF9DBF8F285829E200FC7726 /* ICUIButtonExtViewController.m */,
+				AF9DBF9128582B2400FC7726 /* ICUIButtonExtStyleViewController.h */,
+				AF9DBF9228582B2400FC7726 /* ICUIButtonExtStyleViewController.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +265,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "zhuyuhui434@gmail.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HG6B48G9LT;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -324,11 +345,23 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LDZFCategories_Example/Pods-LDZFCategories_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FDFullscreenPopGesture/FDFullscreenPopGesture.framework",
 				"${BUILT_PRODUCTS_DIR}/LDZFCategories/LDZFCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/LDZFCommon/LDZFCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/LDZFMobileFramework/LDZFMobileFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDFullscreenPopGesture.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LDZFCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LDZFCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LDZFMobileFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -366,7 +399,9 @@
 			files = (
 				6003F59E195388D20070C39A /* ICAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ICViewController.m in Sources */,
+				AF9DBF90285829E200FC7726 /* ICUIButtonExtViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				AF9DBF9328582B2400FC7726 /* ICUIButtonExtStyleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,9 +529,11 @@
 			baseConfigurationReference = 091643EB75F2CCAB458A1E1D /* Pods-LDZFCategories_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HG6B48G9LT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LDZFCategories/LDZFCategories-Prefix.pch";
 				INFOPLIST_FILE = "LDZFCategories/LDZFCategories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +547,11 @@
 			baseConfigurationReference = AE5C091D4ADDA294FF12A415 /* Pods-LDZFCategories_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HG6B48G9LT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LDZFCategories/LDZFCategories-Prefix.pch";
 				INFOPLIST_FILE = "LDZFCategories/LDZFCategories-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
