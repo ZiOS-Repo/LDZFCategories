@@ -1,56 +1,24 @@
 PODS:
-  - FDFullscreenPopGesture (1.1)
-  - LDZFCategories (0.1.21):
-    - LDZFCategories/Foundation (= 0.1.21)
-    - LDZFCategories/QuartzCore (= 0.1.21)
-    - LDZFCategories/UIKit (= 0.1.21)
-    - LDZFCategories/UnSure (= 0.1.21)
-  - LDZFCategories/Foundation (0.1.21)
-  - LDZFCategories/QuartzCore (0.1.21)
-  - LDZFCategories/UIKit (0.1.21)
-  - LDZFCategories/UnSure (0.1.21)
-  - LDZFCommon (0.1.10):
-    - QMUIKit/QMUICore
-  - LDZFMobileFramework (0.1.22):
-    - FDFullscreenPopGesture
-    - LDZFCategories
-    - LDZFCommon
-    - Masonry
-    - MJRefresh
-  - Masonry (1.1.0)
-  - MJRefresh (3.7.5)
-  - QMUIKit/QMUICore (4.1.3):
-    - QMUIKit/QMUILog
-    - QMUIKit/QMUIWeakObjectContainer
-  - QMUIKit/QMUILog (4.1.3)
-  - QMUIKit/QMUIWeakObjectContainer (4.1.3)
+  - LDZFCategories (0.1.22):
+    - LDZFCategories/Foundation (= 0.1.22)
+    - LDZFCategories/QuartzCore (= 0.1.22)
+    - LDZFCategories/UIKit (= 0.1.22)
+    - LDZFCategories/UnSure (= 0.1.22)
+  - LDZFCategories/Foundation (0.1.22)
+  - LDZFCategories/QuartzCore (0.1.22)
+  - LDZFCategories/UIKit (0.1.22)
+  - LDZFCategories/UnSure (0.1.22)
 
 DEPENDENCIES:
   - LDZFCategories (from `../`)
-  - LDZFMobileFramework
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - FDFullscreenPopGesture
-    - LDZFCommon
-    - LDZFMobileFramework
-    - Masonry
-    - MJRefresh
-    - QMUIKit
 
 EXTERNAL SOURCES:
   LDZFCategories:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
-  LDZFCategories: 4cc4a5c7c8565cd3642267506c32bfb05ad67d06
-  LDZFCommon: 75fcad1f16ebc1944f3f6ce45f0d5b9308af7129
-  LDZFMobileFramework: 35cba7075ae18e4a16c3391df2c0230e4c3c025e
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
-  QMUIKit: 1063a99f90aedd6e2dd65026ce0df46e6785e67b
+  LDZFCategories: 19952e52f22e933803aa6c12ec93ed9015af894f
 
-PODFILE CHECKSUM: 1ab2b2b82f95a6d45c7e0a838382f8bbf6b038c7
+PODFILE CHECKSUM: 69be656f98b48428971b9a39a8c5516ecda4e710
 
 COCOAPODS: 1.11.2

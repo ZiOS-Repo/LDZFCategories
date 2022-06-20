@@ -6,8 +6,6 @@ platform :ios, '9.0'
 
 target 'LDZFCategories_Example' do
   pod 'LDZFCategories', :path => '../'
-  pod 'LDZFMobileFramework'
-#  pod 'JXCategoryKit'
   target 'LDZFCategories_Tests' do
     inherit! :search_paths
 

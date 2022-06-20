@@ -6,7 +6,7 @@
 //  Copyright (c) 2021 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import <LDZFMobileFramework/LDZFMobileFramework.h>
-@interface ICViewController : LdzfTabViewScreen
+#import <UIKit/UIKit.h>
+@interface ICViewController : UIViewController
 
 @end

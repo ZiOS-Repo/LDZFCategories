@@ -33,8 +33,6 @@
 #import "UIButton+Event.h"
 #import "UIButton+Inits.h"
 #import "UIButton+Style.h"
-#import "UIColor+Categorys.h"
-#import "UIDevice+LdzfGeneral.h"
 #import "UIImage+Categorys.h"
 #import "UIImage+LdzfClip.h"
 #import "UIImage+LdzfEffect.h"
