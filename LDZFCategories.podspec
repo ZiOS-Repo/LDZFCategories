@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LDZFCategories'
-  s.version          = '0.1.24'
+  s.version          = '0.1.25'
   s.summary          = 'A short description of LDZFCategories.'
 
 # This description is used to generate tags and improve search results.
@@ -39,24 +39,21 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.public_header_files = 'LDZFCategories/**/LDZFCategories.h'
-  s.source_files = 'LDZFCategories/**/LDZFCategories.h'
+  s.public_header_files = 'LDZFCategories/LDZFCategories.h'
+  s.source_files = 'LDZFCategories/LDZFCategories.h'
 #  s.dependency 'JXCategoryKit'
   
-  s.subspec 'Foundation' do |ss|
-    ss.source_files = 'LDZFCategories/**/Foundation/**/*.{h,m}'
-  end
-
-  s.subspec 'QuartzCore' do |ss|
-    ss.source_files = 'LDZFCategories/**/QuartzCore/**/*.{h,m}'
-  end
-
-  s.subspec 'UIKit' do |ss|
-    ss.source_files = 'LDZFCategories/**/UIKit/**/*.{h,m}'
+  s.subspec 'Core' do |ss|
+    ss.source_files = 'LDZFCategories/LDZFCategories.h'
   end
   
-  s.subspec 'UnSure' do |ss|
-    ss.source_files = 'LDZFCategories/**/UnSure/**/*.{h,m}'
+  s.subspec 'UIKit' do |ss|
+    ss.dependency 'LDZFCategories/Core'
+    ss.source_files = 'LDZFCategories/UIKit/*.{h,m}'
   end
 
+  s.subspec 'Foundation' do |ss|
+    ss.dependency 'LDZFCategories/Core'
+    ss.source_files = 'LDZFCategories/Foundation/*.{h,m}'
+  end
 end

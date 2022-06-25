@@ -5,7 +5,10 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'LDZFCategories_Example' do
-  pod 'LDZFCategories', :path => '../'
+  pod 'LDZFCategories/UIKit', :path => '../'
+  pod 'LDZFCategories/Foundation', :path => '../'
+
+  pod 'LDZFCommon'
   target 'LDZFCategories_Tests' do
     inherit! :search_paths
 

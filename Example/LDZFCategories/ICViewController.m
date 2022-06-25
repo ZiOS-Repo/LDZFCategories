@@ -7,10 +7,15 @@
 //
 
 #import "ICViewController.h"
+#import <LDZFCategories/LDZFCategories.h>
 @interface ICViewController ()
 @end
 
 @implementation ICViewController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.view.angle = 0;
+}
 
 @end

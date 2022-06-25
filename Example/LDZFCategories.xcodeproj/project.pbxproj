@@ -328,10 +328,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LDZFCategories_Example/Pods-LDZFCategories_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LDZFCategories/LDZFCategories.framework",
+				"${BUILT_PRODUCTS_DIR}/LDZFCommon/LDZFCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/QMUIKit/QMUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LDZFCategories.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LDZFCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
