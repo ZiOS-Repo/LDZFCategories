@@ -37,6 +37,7 @@
 #import "UIView+AnimationProperty.h"
 #import "UIView+GlowView.h"
 #import "UIView+LdzfGeneral.h"
+#import "UIView+SetRect.h"
 #import "UIView+Shake.h"
 #import "UIViewController+LdzfAlert.h"
 #import "UIViewController+LdzfGeneral.h"

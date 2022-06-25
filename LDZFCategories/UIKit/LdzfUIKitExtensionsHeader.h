@@ -16,6 +16,7 @@
 #import "UIView+GlowView.h"
 #import "UIView+LdzfGeneral.h"
 #import "UIView+Shake.h"
+#import "UIView+SetRect.h"
 
 #import "UIViewController+LdzfAlert.h"
 #import "UIViewController+LdzfGeneral.h"

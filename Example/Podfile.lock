@@ -1,8 +1,8 @@
 PODS:
-  - LDZFCategories/Core (0.1.24)
-  - LDZFCategories/Foundation (0.1.24):
+  - LDZFCategories/Core (0.1.25)
+  - LDZFCategories/Foundation (0.1.25):
     - LDZFCategories/Core
-  - LDZFCategories/UIKit (0.1.24):
+  - LDZFCategories/UIKit (0.1.25):
     - LDZFCategories/Core
   - LDZFCommon (0.3.0):
     - QMUIKit/QMUIComponents/QMUIAnimation
@@ -131,7 +131,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LDZFCategories: 5a4fdad283fa579240f174eb3ace644a56f84bdd
+  LDZFCategories: c04dec608b186880be842f4a080ba3b04c29dbfb
   LDZFCommon: 21ec67034150044d7b13112c49b23b298bf43fa5
   QMUIKit: 1063a99f90aedd6e2dd65026ce0df46e6785e67b
 
